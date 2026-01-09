@@ -1,0 +1,10 @@
+--- a/units/networking/packaging.pxu
++++ b/units/networking/packaging.pxu
+@@ -1,6 +1,6 @@
+ unit: packaging meta-data
+ os-id: debian
+-Depends: ntpdate, net-tools, ethtool
++Depends: ntpsec-ntpdate, net-tools, ethtool
+ 
+ unit: packaging meta-data
+ os-id: debian
