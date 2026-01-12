@@ -1,0 +1,20 @@
+--- a/debian/control
++++ b/debian/control
+@@ -19,7 +19,6 @@ Depends: checkbox-provider-resource,
+          python3,
+          python3-checkbox-support,
+          ${misc:Depends},
+-         ${plainbox:Depends},
+          ${shlibs:Depends}
+ Recommends: bonnie++,
+             curl,
+@@ -41,7 +40,8 @@ Recommends: bonnie++,
+             python3-gi,
+             smartmontools,
+             sysstat,
+-            ${plainbox:Recommends}
++            ${plainbox:Recommends},
++            ${plainbox:Depends}
+ Suggests: fswebcam,
+           fwts,
+           glmark2,
